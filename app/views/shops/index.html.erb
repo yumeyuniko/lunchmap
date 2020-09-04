@@ -8,7 +8,7 @@
     <% end %>
     
     <br>
-<table>
+<table class="table table-striped table-hover">
   <thead>
     <tr>
       <th>Category</th>
@@ -34,4 +34,4 @@
 
 <br>
 
-<%= link_to 'New Shop', new_shop_path %> <%= link_to 'Show Categories', categories_path %>
+<%= link_to 'New Shop', new_shop_path, class: 'btn btn-primary' %> <%= link_to 'Show Categories', categories_path %>
